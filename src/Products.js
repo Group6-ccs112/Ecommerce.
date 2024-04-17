@@ -6,9 +6,8 @@ const Products = () => {
   const [cart, setCart] = useState([]);
 
   const marketProducts = [
-    { name: 'Cabbage', id: 1, price: 10, description: 'Healthy' },
-    { name: 'Garlic', id: 2, price: 15, description: 'Smelly' },
-    // other products...
+    { name: 'Carrots', id: 1, price: 10, description: 'Healthy' },
+    { name: 'Cabage', id: 2, price: 15, description: 'Smelly' },
   ];
 
   const addToCart = (product) => {
